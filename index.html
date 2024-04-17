@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <h2 class="logo">Nirin</h2>
+        <a href="/images/Resume-Nirin.pdf" class="resume">Resume</a>
+
+        <nav class="navbar">
+            <a href="#get-home" class="active">Home</a>
+            <a href="#get-proj">Project</a>
+            <a href="#get-skills">Skills</a>
+            <a href="#get-proj">Portfolio</a>
+            <a href="#get-contact">Contact</a>
+        </nav>
+        <div class="short-menu">
+        <button class="menu" onclick="viewMenu()">MENU</button>
+        <div class="menu-list" id="menuBar" onclick="hideMenu()">
+            <ul>
+                <li><a href="#get-home">Home</a></li>
+                <li><a href="#get-proj">Project</a></li>
+                <li><a href="#get-skills">Skills</a></li>
+                <li><a href="#get-proj">Portfolio</a></li>
+                <li><a href="#get-contact">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </header>
+
+    <div id="get-home"></div>
+
+    <div class="home" id="go-home">
+        <div class="img-container">
+            <div class="myimg">
+                <img src="/images/myImage.jpg" height="500px" width="550px" class="pfpic" alt="Profile picture">
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="home-content">
+                <h1>Hi, I'm Nirin Kumar</h1>
+                <h3>Fullstack Developer</h3>
+                <p>A dedicated and aspiring Java Fullstack developer. I am eager to contribute my skills and passion for technology to a dynamic and forward-thinking organization that enhance my career and knowledge about both technical and non-technical skills in the emerging IT sectors</p>
+                <div class="btn-box">
+                    <a href="/images/Resume-Nirin.pdf">Hire Me</a>
+                    <a href="#get-contact">Let's Talk</a>
+                </div>
+           </div>
+
+        <!-- <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div> -->
+        </div>
+    </div>
+
+    <div id="get-proj"></div>
+
+    <div class="projects" id="go-proj">
+        <div class="portfolio-head">
+            <h1>My<span class="port">Portfolio</span>Section</h1>
+        </div>
+
+        <div class="proj_tab">
+            <div class="pfolio">
+                <h3>Mini front-end Project</h3>
+                <h4>Description:</h4>
+                <p>
+                    To showcase my skills about front-end development and to gain experience, I
+                    have created a collection of mini projects such that Navigation Bar, Login credential, Multi-step progress, Downloading status, Ring loader, Age calculator, Analog clock and Study timer. Embedded all those mini project in a single website by creating a dynamic iframe.
+                </p>
+                <div class="proj1-images">
+                    <div class="proj1-img1">
+                        <img src="/images/navBar.png" id="proj1--img1">
+                    </div>
+                    <div class="proj1-img2">
+                        <img src="/images/ageCalc.png" id="proj1--img2">
+                    </div>
+                    <div class="proj1-img3">
+                        <img src="/images/clock.png" id="proj1--img3">
+                    </div>
+                    <div class="proj1-img4">
+                        <img src="/images/studyTimer.png" id="proj1--img4">
+                    </div>
+                </div>
+                <h4 class="proj-tools">Tools: HTML, CSS and JavaScript</h4>
+                <div class="viewbtn1">
+                    <a href="https://nirinkumar.github.io/mini_project-frontend/"><b>View</b></a>
+                </div>
+            </div>
+
+            <div class="On-Coach">
+                <h3>Employee Management using JDBC with MySQL</h3>
+                <h4>Description:</h4>
+                <p>
+                    To explore my knowledge about back-end connectivity of Java and Database, I have created Employee data Management application by using JDBC and connecting through the Driver with MySQL used as Database. In this Project, we can add a new Employee, update and view the already existing Employee data and delete the Employee data. Source code has been posted in github.
+                </p>
+                <div class="proj2-images">
+                    <div class="proj2-img1">
+                        <img src="/images/proj2-img1.png" id="proj2--img1">
+                        <p>Select options to perform accordingly</p>
+                    </div>
+                    <div class="proj2-img2">
+                        <img src="/images/proj2-img2.png" id="proj2--img2">
+                        <p>Selecting full data of particular employee</p>
+                    </div>
+                    <div class="proj2-img3">
+                        <img src="/images/proj2-img3.png" id="proj2--img3">
+                        <p>Output in MySQL which was inserted through java code</p>
+                    </div>
+                </div>
+
+                <h4 class="proj-tools">Tools: Java, JDBC Driver and MySQL</h4>
+                <div class="viewbtn">
+                    <a href="https://github.com/Nirinkumar/emp_manage"><b>View</b></a>
+                </div>
+            </div>
+
+            <div class="sql-ppt">
+                <h3>Employment Process on MySQL</h3>
+                <h4>Description:</h4>
+                <p>
+                    Worked on Employment process of a company using MySQL. Created a Database for the company and created tables in that database such that Employee details, Salary details, Job department and location. I have handled all queries such that creating RDBMS, create, show and drop database and tables, update and alter tables, insert values into the tables, filtering using WHERE, AND, OR, LIKE, BETWEEN, NOT, IN, COUNT, DISTINCT, GROUP BY, ORDER BY, etc and Conditional Statements, Math functions, String handling, Date functions, Join Queries, Procedures and Triggers. All are presented in Power point Slides.
+                </p>
+                <h4 class="proj-tools">Tools: MySQL and Power Point</h4>
+                <div class="viewbtn">
+                    <a href="https://www.dropbox.com/scl/fi/pygfgq7mpffnvhjyhjiq1/Sql-Project-NirinKumar.pptx?rlkey=wwzfd2un4qkbvpl0v2sgv2zqr&dl=0"><b>View</b></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="get-skills"></div>
+
+    <div class="skills" id="skills">
+        <h1>My<span class="port">Technical</span>Skills</h1>
+        <div class="skiltab">
+           
+                <div class="html">
+                    <div class="htmlimg">
+                        <img src="/images/html.png" style="width: 150px; height: 150px;" id="html-img">
+                    </div>
+                    <div class="htmltxt">
+                        <h4>HTML</h4>
+                    </div>
+                </div>
+            
+            <div class="css">
+                <div class="cssimg">
+                <img src="/images/css.png" style="width: 150px; height: 150px;" id="css-img">
+                </div>
+                <div class="csstxt">
+                <h4>CSS</h4>
+                </div>
+            </div>
+    
+            <div class="javascp">
+                <div class="jsimg">
+                <img src="/images/JS.png" style="width: 150px; height: 150px;" id="js-img">
+                </div>
+                <div class="jstxt">
+                <h4>JavaScript</h4>
+                </div>
+            </div>
+
+            <div class="react">
+                <div class="reactimg">
+                <img src="/images/react.png" style="width: 150px; height: 150px;" id="react-img">
+                </div>
+                <div class="rjstxt">
+                <h4>React JS</h4>
+                </div>
+            </div>
+
+            <div class="java">
+                <div class="javaimg">
+                <img src="/images/java.png" style="width: 150px; height: 150px;" id="java-img">
+                </div>
+                <div class="javatxt">
+                <h4>JAVA</h4>
+                </div>
+            </div>
+
+            <div class="mysql">
+                <div class="sqlimg">
+                <img src="/images/mysql.png" style="width: 150px; height: 150px;" id="sql-img">
+                </div>
+                <div class="sqltxt">
+                <h4>MySQL</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="get-contact"></div>
+
+
+    <div class="contact-content">
+        <h1>Contact Details</h1>
+
+        <div class="contact-container">
+
+            <div class="contact-image">
+                <img src="/images/mailing.webp">
+            </div>
+    
+        
+        <form class="contact" id="contact">
+            <input type="text" name="Name" class="namebox" placeholder="Enter your name" required>
+            <input type="email" name="Email" class="mailbox" placeholder="Enter your email" required>
+            <textarea name="Message" class="msgbox" placeholder="Enter your message" required></textarea>
+            <a href="#" onsubmit="submitForm()">Send message</a>        
+        </form>
+
+        
+    </div>
+    </div>
+
+    <div class="signature">
+        <p>Design and built by Nirinkumar|2024</p>
+    </div>
+
+
+    <script>
+       
+            // let menu = document.getElementsByClassName('menu')
+        
+        function viewMenu(){
+            let menuList = document.getElementById('menuBar')
+            menuList.style.display="block"
+            console.log("view");
+        }
+
+        function hideMenu(){
+            let hideList = document.getElementById('menuBar')
+            hideList.style.display="none"
+            console.log("hide");
+        }
+    </script>
+</body>
+</html>
